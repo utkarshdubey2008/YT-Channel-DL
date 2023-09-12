@@ -5,7 +5,7 @@ import asyncio
 @Client.on_message(filters.command("start"))
 async def start_msg(client, message):
 	await message.reply_text(
-		f"Hi {message.from_user.mention}, I am YouTube Channel DL Bot.\n\nClick Help button to know how to use.",
+		f"Hi {message.from_user.mention}, I am YouTube Channel DL Bot Join My Channel @Thealphabotz.\n\nClick Help button to know how to use.",
 		reply_markup=InlineKeyboardMarkup(
 				[[
 					InlineKeyboardButton("🛠 Help", callback_data=f"help"),
