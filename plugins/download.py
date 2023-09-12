@@ -326,7 +326,7 @@ async def pyro_fsub(c, message, fsub):
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton("Join Now", url=f"https://t.me/{UPDTE_CHNL}")
+                        InlineKeyboardButton("Join Now", url=f"https://t.me/{TheAlphaBotz}")
                     ]
                 ]
             )
